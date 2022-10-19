@@ -1,0 +1,104 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(241,245,249,255);
+}
+.carousel{
+    /* border:1px solid black; */
+}
+.carousel-item{
+    /* border:1px solid yellow; */
+    height:400px;
+}
+
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* -webkit-filter: blur(2px); */
+}
+
+.formSection{
+    /* border:1px solid black; */
+    position:absolute;
+    top:200px;
+    left:0px;
+    width:100%;
+    color:white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formSection form{
+    /* border:1px solid red; */
+    width: fit-content;
+    margin:auto;
+    width:40%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* margin-left:50%; */
+}
+.formSection input[type="text"]{
+    /* border:1px solid black; */
+    padding:8px 15px;
+    border:none;
+    height:45px;
+    border-radius: 4px;
+    width:400px;
+}
+.formSection input[type="text"]:focus{
+    outline:turquoise;
+}
+.formSection .btn{
+    /* border-radius: 5px; */
+    height:45px;
+}
+
+@media only screen and (max-width: 900px) {
+    .formSection form{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .formSection input[type="text"]{
+        width:100%;
+        font-size: 0.8rem;
+        height:40px;
+    }
+    .formSection .btn{
+        height:40px;
+    }
+
+}
+.recommendedBooks{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.book{
+    background-color: white;
+    height:150px;
+    width:10vw;
+    min-width: 200px;
+    border-radius:5px;
+    margin-left:1rem;
+    border-bottom:4px solid #4CAF50;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px 10px;
+}
+.book p{
+    text-align: center;
+    line-break: anywhere;
+}
