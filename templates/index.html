@@ -53,6 +53,11 @@
     </div>
     <div class="container">
         <div class="recommendedBooks mt-3">
+            {% if not result %}
+            <div class="book shadow" style="border-bottom:4px solid #FF5252">
+                No books found!
+            </div>
+            {% endif %}
             {% if recommended_books %}
             {% for bookname in recommended_books %}
             <div class="book shadow" id="book1">
