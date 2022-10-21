@@ -8,7 +8,7 @@ def index():
     recommended_books = list()
     bookname = str()
     if request.method == 'POST':
-        bookname = request.form.get('bookname')
+        bookname = request.form.get('bookname').lower()
         recommended_books = similar_books(bookname,b_weights)[1:]
         result = False if not recommended_books else True
     return render_template('index.html', recommended_books=recommended_books, bookname=bookname, result=result)
