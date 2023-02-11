@@ -1,5 +1,21 @@
 http://book-recommendation-wiki.herokuapp.com/
 
+# The GitHub repository for the book recommendation system consists of the following files:
+
+- book recommendation system final.ipynb: This is the Jupyter Notebook containing the code for the Machine Learning model to recommend books. It includes pre-processing of the data, tokenization, creation of integer index and vector representation of the words, and training of the Recurrent Neural Network model.
+
+- app.py: This is the Flask code for the backend of the web application. It handles the API requests and responses, and integrates the Machine Learning model into the web application.
+
+- templates and static: These directories contain the HTML, CSS, and JavaScript code for the frontend of the web application. The templates directory contains the HTML templates and the static directory contains the CSS and JavaScript files.
+
+- book_recommendation.h5: This is the trained Machine Learning model in the Keras H5 format.
+
+- predict.py: This is the code for the backend of the web application. It contains the implementation of the prediction logic and the API endpoints.
+
+- wikipedia.json: This is the data file containing the book titles scraped from Wikipedia that was used to train the model.
+
+- requirements.txt: This is the environment and version file that lists all the dependencies required to run the code. To clone the repository to your local machine, you need to install these dependencies by running the command "pip install -r requirements.txt".
+
 ## Project Overview:
 
 The book recommendation model aims to tackle the challenge of finding the right book that matches an individual's reading preferences and interests. By leveraging the latest advances in natural language processing (NLP) and embedding techniques, the model analyzes the data obtained from scraping the Wikipedia pages of books. The data includes the book's title, author, genre, and themes, as well as the titles of similar books at the bottom of each Wikipedia page.
