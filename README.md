@@ -90,6 +90,11 @@ In conclusion, the book recommendation project is a comprehensive solution that 
 - Data Cleaning: Another area for improvement is the data used for generating the book recommendations. The data quality can significantly impact the accuracy of the recommendations, and further data cleaning and pre-processing techniques could be applied to ensure that the data is consistent and of high quality.
 
 - Improved Pearson Correlation: The Pearson correlation is a measure of the similarity between two datasets. By improving the quality of the data, and potentially incorporating additional techniques such as singular value decomposition (SVD) or matrix factorization, it may be possible to increase the accuracy of the Pearson correlation between books and provide more relevant recommendations to users.
+- Hyperparameter Optimization: The hyperparameters of the neural network model can be optimized to improve the results.
+
+- Alternative Supervised Learning: Using different information for the supervised learning process can result in a better model for recommendation.
+
+- Regression Model: A regression model can be used instead of a classification model to potentially improve the results.
 
 - These future improvements have the potential to enhance the accuracy and relevancy of the book recommendations, providing users with a more personalized and enjoyable experience.
 
