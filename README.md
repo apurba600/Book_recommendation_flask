@@ -39,14 +39,30 @@ The book recommendation project is a comprehensive solution for providing person
 
 - ML Model: The ML model is designed to make personalized book recommendations based on the similarities of each book's Wikipedia page to the query book. To achieve this, the following steps were taken:
 
-Pre-processing and vectorization of book titles using the Natural Language Toolkit (NLTK) library. This involved cleaning and standardizing the text data, converting the book titles into numerical representations, and preparing the data for analysis.
-Use of word embedding techniques to group similar vectors in the vector space. The model creates dense vector representations of the book titles, allowing for the representation of the relationships between different books.
-Training of the ML model using a recurrent neural network (RNN). The RNN was trained on a large dataset of book information and reader preferences to ensure the recommendations generated were accurate and relevant.
-- Web Application: The web application was implemented to provide an intuitive and user-friendly interface for accessing the book recommendations. The following tools and technologies were used:
+### For a Natural Language Processing (NLP) project, the following steps are typically involved in the data
 
-Flask for the backend of the web application, allowing for the integration of the ML model and the processing of user requests.
+- Tokenization: This involves breaking down the text into smaller units, such as words or phrases. This is typically done using regular expressions or string functions.
+
+- Removing Stopwords: Stopwords are common words that do not provide significant information about the content of the text. These words can be removed from the text as they do not contribute to the meaning of the text.
+
+- Stemming: This is the process of reducing words to their base form, in order to minimize the number of words in the text. This is done to reduce the dimensionality of the data and to make the text easier to work with.
+
+- Creating Integer Index: In NLP, words are usually represented as integers, as it is computationally more efficient. This involves creating a mapping between words and integers, and converting the text into integer form.
+
+- Converting to Vector: This involves converting the integer representation of words into vectors, which are arrays of numbers. The vectors can be represented in various forms such as one-hot encoding, bag of words, or as dense vectors using word embeddings.
+
+- Embedding: Embedding is the process of mapping words to a dense, continuous vector representation. This step is usually done using pre-trained models such as GloVe, Word2Vec, or FastText.
+
+- Supervised Learning: Once the words have been embedded, the model can be trained on a supervised learning task. This involves optimizing the embedding parameters to better fit the task data.
+- Converting Back to Words: Finally, the vectors can be converted back to words to make it easier to interpret the results
+
+### Web Application: The web application was implemented to provide an intuitive and user-friendly interface for accessing the book recommendations. The following tools and technologies were used:
+
+- Flask for the backend of the web application, allowing for the integration of the ML model and the processing of user requests.
 HTML, CSS, and Javascript for the frontend, providing a visually appealing and interactive user interface.
-- Heroku Deployment: The final step was to deploy the web application on Heroku, a cloud platform that provides a quick and easy way to deploy and scale web applications. By deploying the web application on Heroku, the book recommendation solution is accessible to a wider audience, and is able to handle an increased volume of user requests.
+
+### Heroku Deployment 
+- The final step was to deploy the web application on Heroku, a cloud platform that provides a quick and easy way to deploy and scale web applications. By deploying the web application on Heroku, the book recommendation solution is accessible to a wider audience, and is able to handle an increased volume of user requests.
 
 In conclusion, the book recommendation project is a comprehensive solution that leverages the latest advances in NLP, embedding techniques, and ML to provide personalized book recommendations to users. By utilizing the NLTK library, word embedding techniques, RNNs, Flask, HTML, CSS, Javascript, and Heroku deployment, the project provides a scalable and accessible solution for helping book lovers discover new books.
 
