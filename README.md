@@ -69,6 +69,23 @@ The book recommendation system is a solution that aims to provide personalized b
 
 The book recommendation system is a solution that provides personalized book recommendations to users based on their interests. The solution uses NLP techniques, machine learning algorithms, and deployment on the Heroku platform to achieve its goals. The project has the potential to provide users with a personalized and enjoyable experience, making it easier for them to discover new books and expand their reading horizons.
 
+## How you can use the WebAPP and How to make improvements
 
+### Using the Web App:
+
+- Visit the Heroku deployment link for the Web App.
+- Type in the name of the book you are looking for recommendations for.
+- The Web App will display a list of book recommendations based on its similarity to the query book.
+
+### Improving the code:
+
+- Visit the GitHub repository of the project.
+- Fork the repository to your own GitHub account.
+- Clone the repository to your local machine.
+- Install the necessary dependencies mentioned in the "Requirements.txt" file.
+- Make the desired changes and improvements to the code.
+- Commit and push the changes to your forked repository.
+- Submit a pull request to the original repository for review and merging.
+- Note: It's recommended to have a basic understanding of NLP, web development and Git before attempting to improve the code.
 
 
