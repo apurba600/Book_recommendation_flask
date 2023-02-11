@@ -1,8 +1,8 @@
 http://book-recommendation-wiki.herokuapp.com/
 
-# The GitHub repository for the book recommendation system consists of the following files:
+## The GitHub repository for the book recommendation system consists of the following files:
 
-- book recommendation system final.ipynb: This is the Jupyter Notebook containing the code for the Machine Learning model to recommend books. It includes pre-processing of the data, tokenization, creation of integer index and vector representation of the words, and training of the Recurrent Neural Network model.
+- Book recommendation system final.ipynb: This is the Jupyter Notebook containing the code for the Machine Learning model to recommend books. It includes pre-processing of the data, tokenization, creation of integer index and vector representation of the words, and training of the Recurrent Neural Network model.
 
 - app.py: This is the Flask code for the backend of the web application. It handles the API requests and responses, and integrates the Machine Learning model into the web application.
 
