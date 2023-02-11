@@ -90,3 +90,5 @@ The book recommendation system is a solution that provides personalized book rec
 
 
 ![image1](https://user-images.githubusercontent.com/90535174/218240959-37a2ac75-71a8-4555-a430-f3d0162373d3.jpg)
+
+![image2_1](https://user-images.githubusercontent.com/90535174/218241045-83a25fd0-6654-43ad-b03a-f15121b371a9.jpg)
